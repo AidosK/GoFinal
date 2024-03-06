@@ -1,0 +1,97 @@
+{{ template "base" .}} {{ define "title" }} About us {{ end }} {{ define "css"
+}}
+<link href="/static/css/about.css" rel="stylesheet" type="text/css" />
+{{ end }} {{ define "content" }}
+<!-- carousel Section -->
+<section
+  id="carouselExampleCaptions"
+  class="carousel slide carousel-fade"
+  data-bs-ride="false"
+>
+  <!-- Add background images source for the carousel /static/images... remove the / before static, if you are serving the images locally -->
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/images/outside.png" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        src="/static/images/woman-laptop.png"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/images/tray.png" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</section>
+
+<!-- About us section  -->
+<section class="container text-center about-us">
+  <h2 class="">About our Hotel</h2>
+  <p>
+    Step into your oasis of comfort, where stylish décor meets modern convenience. Our rooms feature tasteful furnishings and soothing color palettes, creating a serene ambiance for a restful stay. Sink into plush bedding and enjoy amenities such as high-speed Wi-Fi, flat-screen TVs, and spacious workstations, ensuring a seamless blend of comfort and functionality.
+  </p>
+  <p>
+    Choose from a variety of room options to suit your preferences and requirements. Whether you're seeking a cozy haven for a solo traveler, a spacious retreat for a family vacation, or an indulgent suite for a special occasion, we offer a range of accommodations to cater to every need.
+  </p>
+  <p>
+    Many of our rooms boast panoramic views of the surrounding cityscape or picturesque landscapes, providing a stunning backdrop to your stay. Relax and unwind as you take in the breathtaking vistas from the comfort of your room, immersing yourself in the beauty of your surroundings.
+  </p>
+  <a class="btn call-to-action-button" href="/reservation" role="button"
+    >Book Now</a
+  >
+</section>
+{{ end }}

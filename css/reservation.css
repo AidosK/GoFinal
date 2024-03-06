@@ -1,0 +1,68 @@
+body {
+    margin-top: 30px;
+    background-color: rgb(245, 245, 245);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.modal-buttons {
+    z-index: 0;
+}
+
+.about-us {
+    margin: 8rem auto;
+}
+
+.contact-us {
+    margin: 8rem auto;
+}
+
+.call-to-action-button {
+    background-color: #7431f8;
+    color: white;
+    margin-top: 1.2rem;
+}
+
+.call-to-action-button:hover {
+    border: 1px solid #7431f8;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input-description {
+    font-size: 12px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Other action button style */
+.other-action-button {
+    color: gray;
+    text-decoration: none;
+}
+
