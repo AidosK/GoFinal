@@ -26,7 +26,6 @@ This project is a simple hotel booking and reservation project with key features
 - [JackC PGX](https://github.com/jackc/pgx/v5) pgx is a pure Go driver and toolkit for PostgreSQL.
 - [Go Simple Mail](https://github.com/xhit/go-simple-mail) Used for sending mails.
 - [Simple DataTable](https://github.com/fiduswriter/Simple-DataTables) Used for tables.
-- [Buffalo Soda](https://gobuffalo.io/pt/documentation/database/soda/) Used for tables.
 
 ### Note:
 
